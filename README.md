@@ -1,2 +1,2 @@
 # javaGui
-Java'da GUI işlemleri kullanılarak basit bir Restorant Otomasyonu hazırlanmıştır.
+Java'da GUI işlemleri kullanılarak basit bir Restorant Otomasyonu hazırlanmıştır...
