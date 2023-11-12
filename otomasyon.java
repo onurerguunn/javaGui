@@ -13,7 +13,7 @@ public class Uygulamam1 {
 
     public static void main(String[] args) {
 
-        JFrame f = new JFrame("Onur Restaurant");
+        JFrame f = new JFrame("Restaurant");
         JLabel l1 = new JLabel("RESTAURANT YİYECEK-İÇECEK MENÜSÜ");
         l1.setForeground(Color.blue);
         l1.setFont(new Font("calibri", Font.ITALIC, 22));
@@ -216,7 +216,7 @@ public class Uygulamam1 {
         btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String ID = "id";
+                String ID = "id";  // BU KISIM MANTIKSIZ EVET AMA İLERDE DÜZELTİLECEK
                 String sifre = "sifre";
                 if (t14.getText().equals(ID) && t15.getText().equals(sifre)) {
 
