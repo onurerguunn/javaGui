@@ -2,16 +2,16 @@
         //DİZİLER SIFIRINCI ELEMANDAN BAŞLAR
         
         String a[] = new String[3];
-        a[0]="kral";
-        a[1]="reis";
+        a[0]="Bilgisayar";
+        a[1]="Muhendisliği";
         String g = a[0];
         System.out.println(a[1]);
         System.out.println(g);
       
         
-        //ÇOK BOYURLU DİZİLERDE İSE DURUM BÖYLEDİR
+        //ÇOK BOYUTLU DİZİLERDE İSE DURUM BÖYLEDİR
       
-        int A[][] = new int[3][2];   //3 deki satır , 2 deki sütundur.
+        int A[][] = new int[3][2];   // 3 deki satır , 2 deki sütundur.
         A[0][0]=2;
         
 
@@ -69,11 +69,11 @@
          for(int i=0 ; i<20 ; i++){
              ad[i]=k.nextLine();
              if(ad[i].charAt(0)=='B' || ad[i].charAt(0)=='b'){
-                 System.out.println("İlk harfi B veya b olan isim saptandı = " + ad[i]);
+                 System.out.println("İlk harfi B veya b olan isim bulundu = " + ad[i]);
                  s=s+(ad[i]) +" ";
              }
              if(ad[i].length()==1 || ad[i].length()==3){
-                 System.out.println("Tek yada Üç karakterli kelime saptandı = " +ad[i]);
+                 System.out.println("Tek yada Üç karakterli kelime bulundu = " +ad[i]);
              }
          }
          System.out.println(s);
@@ -378,7 +378,7 @@ for(int i=0;i<6;i++){
 
 // Kullanıcıdan dizi elemanlarını alma.
 
-             Scanner k = new Scanner(System.in);
+        Scanner k = new Scanner(System.in);
         System.out.println("Dizinin uzunluğu kaç elemanlı olsun?");
         int diziUzunluk = k.nextInt();
         String dizi[] = new String[diziUzunluk];
